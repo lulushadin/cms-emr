@@ -1,3 +1,4 @@
+import 'package:docto_cms/utils/app_color.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -28,11 +29,13 @@ class HomePage extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            Container(
-              height: 155,
-              width: 109,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
+            Card(
+              child: Container(
+                height: 109,
+                width: 155,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(12),
+                ),
               ),
             )
           ],
