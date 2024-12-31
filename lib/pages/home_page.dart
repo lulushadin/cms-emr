@@ -7,10 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'EMR',
-          style: TextStyle(fontSize: 19),
-        ),
+        title: Text('EMR', style: google),
       ),
     );
   }
